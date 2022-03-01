@@ -6,8 +6,8 @@ import os
 s3 = boto3.resource(
     service_name='s3',
     region_name='us-east-1',
-    aws_access_key_id='AKIAQXAY6OL5ENNGVHVX',
-    aws_secret_access_key='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'
+    aws_access_key_id='access key',
+    aws_secret_access_key='secret key'
 )
 
 
