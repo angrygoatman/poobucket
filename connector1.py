@@ -11,10 +11,6 @@ s3 = boto3.resource(
 )
 
 
-import os
-os.environ["AWS_DEFAULT_REGION"] = 'us-east-1'
-os.environ["AWS_ACCESS_KEY_ID"] = 'AKIAQXAY6OL5ENNGVHVX'
-os.environ["AWS_SECRET_ACCESS_KEY"] = '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'
 
 
 for bucket in s3.buckets.all():
